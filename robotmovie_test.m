@@ -38,7 +38,7 @@ F(j)=getframe;
 end
 hold off
 
-
+movie(F);
  avi1=VideoWriter('robot.avi');
  avi1.FrameRate=6;
  open(avi1);
